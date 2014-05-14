@@ -7,7 +7,6 @@ namespace-id-rule: * CO_334:$sequence(7,0,9999999)$
 ﻿format-version: 1.2 
 
 [Term]
-id: CO_334:0000000
 name: CGIAR cassava trait ontology
 namespace: cassava_trait
 def: "It is a controlled vocabulary to describe each trait as a distinguishable, characteristic, quality or phenotypic feature of a developing or mature cassava plant." [CO:mb]
