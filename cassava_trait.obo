@@ -17,7 +17,6 @@ creation_date: 2010-11-08T02:19:50Z
 id: CO_334:0000001
 name: agronomic trait
 namespace: cassava_trait
-def: "A characteristic in a cassava plant that will add economic value to agricultural production." [CO:mb]
 is_a: CO_334:0000000 ! CGIAR cassava trait ontology
 created_by: BAKARE
 creation_date: 2010-11-08T02:20:57Z
