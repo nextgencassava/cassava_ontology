@@ -2,7 +2,7 @@ format-version: 1.2
 date: 27:08:2014 16:41
 saved-by: aafolabi
 auto-generated-by: OBO-Edit 2.3
-default-namespace: cassava_trait.obo
+default-namespace: cassava_trait
 namespace-id-rule: * CO_334:$sequence(7,0,9999999)$
 ﻿format-version: 1.2
 
