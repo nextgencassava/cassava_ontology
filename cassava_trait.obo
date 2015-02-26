@@ -1,8 +1,8 @@
 format-version: 1.2
-date: 27:08:2014 16:41
+date: 26:02:2015 14:27
 saved-by: aafolabi
 auto-generated-by: OBO-Edit 2.3
-default-namespace: cassava_trait
+default-namespace: file:C:/Users/BAKARE/Desktop/cassava_trait.obo
 namespace-id-rule: * CO_334:$sequence(7,0,9999999)$
 ﻿format-version: 1.2
 
@@ -1203,6 +1203,17 @@ created_by: BAKARE
 creation_date: 2010-12-03T11:26:34Z
 
 [Term]
+id: CO_334:0000109
+name: root constriction
+namespace: cassava_trait
+def: "Visual ratings of root constrcitions (1 = few, 2 = intermediate, 3 = many) as being evaluated by CIAT." []
+synonym: "RTCON" RELATED []
+xref: CO:334\:0000051
+is_a: CO_334:0000051 ! storage root constriction
+created_by: aafolabi
+creation_date: 2015-01-29T09:25:58Z
+
+[Term]
 id: CO_334:0000110
 name: fruit set
 namespace: cassava_trait
@@ -2311,6 +2322,373 @@ synonym: "CAD3I" EXACT []
 is_a: CO_334:0000038 ! cassava anthracnose disease incidence
 created_by: aafolabi
 creation_date: 2014-07-08T07:57:10Z
+
+[Term]
+id: CO_334:0000220
+name: initial plant vigor
+namespace: cassava_trait
+def: "Visual assessment of plant vigor during establishment (1=very little vigor, and 5 = very vigorous). as being evaluated by CIAT." []
+synonym: "VIGOUR" RELATED []
+xref: CO:334\:0000009
+is_a: CO_334:0000009 ! initial vigor
+created_by: aafolabi
+creation_date: 2015-01-29T09:35:53Z
+
+[Term]
+id: CO_334:0000221
+name: root color
+namespace: cassava_trait
+def: "Visual rating of storage root surface color with 1 = white , 2 = intermediate, and 3 = dark brown, as being evaluated by CIAT." []
+synonym: "RTCOL" RELATED []
+xref: CO:334\:0000053
+is_a: CO_334:0000053 ! root surface color
+created_by: aafolabi
+creation_date: 2015-01-29T10:18:16Z
+
+[Term]
+id: CO_334:0000222
+name: root flesh color
+namespace: cassava_trait
+def: "Visual rating of root pulp color with 1 = white, 2 = cream, 3 = yellow, as being evaluated by CIAT." []
+synonym: "RTFCOL" RELATED []
+xref: CO:334\:0000021
+is_a: CO_334:0000021 ! storage root pulp color
+created_by: aafolabi
+creation_date: 2015-01-29T12:05:24Z
+
+[Term]
+id: CO_334:0000223
+name: storage root neck length
+namespace: cassava_trait
+def: "Visual rating of root neck length with 1 = short, 2 = intermediate, 3 = long, as being evaluated by CIAT." []
+synonym: "RNKLGT" RELATED []
+xref: CO:334\:0000022
+is_a: CO_334:0000022 ! root neck length
+created_by: aafolabi
+creation_date: 2015-01-29T12:17:45Z
+
+[Term]
+id: CO_334:0000224
+name: staygreen
+namespace: cassava_trait
+def: "Visual rating of leaf longevity using a scale of 1 = Normal plant with full canopy, retaining most formed leaves which are green, turgid and photosynthetically active. 3 = 30% of the leaves have dropped , less than 50% of the remaining leaves are droppy, partially wilted and practically dry, most of the young leaves have reduced greenness or are yellowing. 5 = 50% reduction of the leaf number compared to full canopy; most of the older leaves are droppy, wilted and practically dry; most of the young leaves have reduced greeness or are yellowing. 7 = 80% reduction of the leaf number compareed to full canopy; more than 75% of the remaining old leaves are wilted or brown; young leaves have reduced greeness or are yellowing\". 9 = Complete defoliation of the stem with candlestick appearance; dieback is also evident on the stem." []
+synonym: "SG" EXACT []
+xref: CO:334\:0000048
+is_a: CO_334:0000048 ! leaf retention
+created_by: aafolabi
+creation_date: 2015-01-29T12:23:05Z
+
+[Term]
+id: CO_334:0000225
+name: ease of harvest
+namespace: cassava_trait
+def: "An assessment of the difficulty in pulling the plants from the ground during harvesting with 1 = easy, 2= intermediate, 3 = difficult." []
+synonym: "EASEHV" EXACT []
+is_a: CO_334:0000002 ! morphological trait
+created_by: aafolabi
+creation_date: 2015-01-29T12:33:54Z
+
+[Term]
+id: CO_334:0000226
+name: root length evaluation
+namespace: cassava_trait
+def: "Visual assessment of the root length on a scale of 1, 2, 3 (1=short;  2= intermediate; 3=long)" []
+synonym: "RTLGT" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+created_by: aafolabi
+creation_date: 2015-01-29T12:36:06Z
+
+[Term]
+id: CO_334:0000227
+name: stalk length evaluation
+namespace: cassava_trait
+def: "Visual assessment of the average length of the stalks (1=short; 2=intermediate; 3=long)" []
+synonym: "STKLGT" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+created_by: aafolabi
+creation_date: 2015-01-29T12:37:13Z
+
+[Term]
+id: CO_334:0000228
+name: root evaluation
+namespace: cassava_trait
+def: "An evaluation of the integration of  root shape, size, diameter, constriction, neck length on a scale of 1-5 with 1=very good; 5=very bad. Before scoring the roots, the field technician walks the harvested plot to get an idea of the average root type of the trial which will then be used as a score of 3. Genotypes better than average will be scored 2 and 1 in that order. Similiar genotype that are certainly worse compared to the average score are rated 4 and 5 in that order. Trait description is provided by Hernan Ceballos of CIAT." []
+synonym: "RTEVAL" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+created_by: aafolabi
+creation_date: 2015-01-29T12:38:44Z
+
+[Term]
+id: CO_334:0000229
+name: rotten root percentage
+namespace: cassava_trait
+def: "Number of rotten storage root relative to the storage root harvested in a plot estimated in percentage (%)." []
+synonym: "ROTPCT" EXACT []
+relationship: derives_from CO_334:0000084 ! rotted storage root
+created_by: aafolabi
+creation_date: 2015-01-29T12:40:57Z
+
+[Term]
+id: CO_334:0000230
+name: plant yield
+namespace: cassava_trait
+def: "Average yield per plant in a plot measured in kilogram (kg). It is estimated by dividing the total weight of roots by the number of plants harvested." []
+synonym: "PLTYLD" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+relationship: derives_from CO_334:0000012 ! fresh root weight
+created_by: aafolabi
+creation_date: 2015-01-29T14:32:07Z
+
+[Term]
+id: CO_334:0000231
+name: yield per year
+namespace: cassava_trait
+def: "Annual root yield estimated in tonnes per hectare (t/ha) using yield per hectare as a function of the crop duration. Trait description provided by Hernan Ceballos in CIAT" []
+synonym: "YLDYR" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+relationship: derives_from CO_334:0000013 ! fresh root yield
+created_by: aafolabi
+creation_date: 2015-01-29T14:36:13Z
+
+[Term]
+id: CO_334:0000232
+name: selected variety
+namespace: cassava_trait
+def: "Selected variety (1=yes; 0=no)" []
+synonym: "SELECT" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+created_by: aafolabi
+creation_date: 2015-01-29T14:38:31Z
+
+[Term]
+id: CO_334:0000233
+name: flowering ability
+namespace: cassava_trait
+def: "presence of flowers (0=none; 1=little; 2=intermediate; 3=many)." []
+synonym: "FLOWAB" EXACT []
+is_a: CO_334:0000111 ! flower
+created_by: aafolabi
+creation_date: 2015-01-29T14:39:42Z
+
+[Term]
+id: CO_334:0000234
+name: female flower evaluation
+namespace: cassava_trait
+def: "Visual rating of the count of the number of female flowers present at all branching levels on a plant stand on per plot basis; with 0 = absence of flower, 1 = low number of female flowers [below 5], 2 =  [Medium] 5 to 15 female flowers present, 3 =  [High] above 15 female flowers present)." []
+synonym: "FLWFEVAL" EXACT []
+is_a: CO_334:0000002 ! morphological trait
+created_by: aafolabi
+creation_date: 2015-01-29T14:46:35Z
+
+[Term]
+id: CO_334:0000235
+name: flowering incidence
+namespace: cassava_trait
+def: "Proportion of the number of female flowers in a plot to the number of plant stand in the plot." []
+synonym: "FLOWINC" EXACT []
+is_a: CO_334:0000002 ! morphological trait
+created_by: aafolabi
+creation_date: 2015-01-29T14:48:55Z
+
+[Term]
+id: CO_334:0000236
+name: sooty mould
+namespace: cassava_trait
+def: "Percentage of black mould on the lower leave caused by green mite, aphid, whitefly on cassava leaves with 1 = none, 2 = mild sooty mould on <5% of leaves, 3 = mild sooty mould on 5-20% of leaves,  4 = moderate sooty mould on >20% of leaves; mild leaf curling, 5 = heavy sooty mould on 20-50% of leaves; strong leaf curling of lower leaves; stunted growth of bottom half of plant." []
+synonym: "SOOTY" EXACT []
+is_a: CO_334:0000030 ! insect damage
+created_by: aafolabi
+creation_date: 2015-01-29T14:52:27Z
+
+[Term]
+id: CO_334:0000237
+name: hairiness
+namespace: cassava_trait
+def: "The level of pubescence on the growing part. It is a proportion of tissue covered by hair on the tip leaves. 1 = Glaborous (No hair) 2 = scatter hair on the edges of tip leaves and bracts, 3 = moderate hair on the edges of tip leaves and bract, 4 = about 50% - 70% hair cover the tip leaves, 5 = 75% - 100% of hair cover the tip leaves." []
+synonym: "HAIRINESS" EXACT []
+is_a: CO_334:0000002 ! morphological trait
+created_by: aafolabi
+creation_date: 2015-01-29T14:57:25Z
+
+[Term]
+id: CO_334:0000238
+name: gari starch
+namespace: cassava_trait
+def: "Percentage of starch compostion of gari. This is done locally by using hydraulic jerk to press the gari while it is fresh after grating." []
+synonym: "GSTARCH" EXACT []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2015-01-30T09:56:49Z
+
+[Term]
+id: CO_334:0000239
+name: gari fibre
+namespace: cassava_trait
+def: "Sensory assessment of the fibre content. This is done locally by sieving the fried gari, milled locally, and prepared as eba (A popular food in Nigeria). 0 = none, 1 = moderately fibrous, 2 = fibrous, 3 = highly fibrous." []
+synonym: "GFIBRE" EXACT []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2015-01-30T10:10:14Z
+
+[Term]
+id: CO_334:0000240
+name: gari taste
+namespace: cassava_trait
+def: "Taste of gari. 1 = normal, 2 = sweet, and 3 = sour" []
+synonym: "GTASTE" EXACT []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2015-01-30T10:18:37Z
+
+[Term]
+id: CO_334:0000241
+name: gari swelling capacity
+namespace: cassava_trait
+def: "Visual assessment of the increment in quantity when water is added to the gari. 1 = Less than its original volume, 2 = twice the original volume and 3 =thrice the original volume" []
+synonym: "SWELLING" EXACT []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2015-01-30T10:19:59Z
+
+[Term]
+id: CO_334:0000242
+name: gari weight after grinding
+namespace: cassava_trait
+def: "The weight of grated cassava in kilogram (kg) before fermentation in jute bags ." []
+synonym: "WTAGRIND" EXACT []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2015-01-30T10:23:11Z
+
+[Term]
+id: CO_334:0000243
+name: weight of mashed cassava cake
+namespace: cassava_trait
+def: "Weight of cassava cake after pressing and dehydrating using hydraulic press. Measured in kilogram (kg)" []
+synonym: "WTAMASH" EXACT []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2015-01-30T10:25:05Z
+
+[Term]
+id: CO_334:0000244
+name: gari shaft weight
+namespace: cassava_trait
+def: "Weight of residue in kilogram (kg) after sieving the roasted gari." []
+synonym: "SHAFTWT" EXACT []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2015-01-30T10:26:20Z
+
+[Term]
+id: CO_334:0000245
+name: gari sample weight
+namespace: cassava_trait
+def: "Sample of gari measured in kilogram per gram (kg/g) before and after frying usually for experimental purposes" []
+synonym: "GARIWT" EXACT []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2015-01-30T10:27:52Z
+
+[Term]
+id: CO_334:0000246
+name: gari weight after drying
+namespace: cassava_trait
+def: "weight of cassava in kilogram per gram (kg/g) after drying using the frying pan." []
+synonym: "GDRYWT" RELATED []
+is_a: CO_334:0000004 ! quality trait
+created_by: aafolabi
+creation_date: 2015-01-30T10:31:16Z
+
+[Term]
+id: CO_334:0000247
+name: root weight after washing
+namespace: cassava_trait
+def: "This is the weight of fresh roots cassava washed  in water.It is measured in kilogram (kg) using weighing pan and suspended salter scale; usually for gari preparation." []
+synonym: "WTWASH" EXACT []
+is_a: CO_334:0000012 ! fresh root weight
+created_by: aafolabi
+creation_date: 2015-01-30T10:35:23Z
+
+[Term]
+id: CO_334:0000248
+name: root weight after peel
+namespace: cassava_trait
+def: "This is weight of the peeled washed  cassava roots in kilogram (kg) using salter scale and weighing pan." []
+synonym: "RWTAPL" EXACT []
+is_a: CO_334:0000247 ! root weight after washing
+created_by: aafolabi
+creation_date: 2015-01-30T10:40:18Z
+
+[Term]
+id: CO_334:0000249
+name: peel weight
+namespace: cassava_trait
+def: "The weight of the peels (outer and inner skin) removed from the fresh root cassava; using salter scale. It is measured in Kilogram (kg)." []
+synonym: "PEELWT" EXACT []
+is_a: CO_334:0000001 ! agronomic trait
+created_by: aafolabi
+creation_date: 2015-01-30T10:45:10Z
+
+[Term]
+id: CO_334:0000250
+name: number of stakes
+namespace: cassava_trait
+def: "An estimated number of plantable stakes (about 20cm long, with approximately six nodes) that can be made out of the total number of stems in a plot." [CO:aa]
+synonym: "STKNO" EXACT []
+is_a: CO_334:0000126 ! plantable stem
+created_by: aafolabi
+creation_date: 2015-02-26T12:55:44Z
+
+[Term]
+id: CO_334:0000251
+name: percentage leaf retention
+namespace: cassava_trait
+def: "An estimation of the percentage stem length with retained leaf measured in percentage (%) using a representative plant stand in a plot." []
+synonym: "LRCENT" RELATED []
+is_a: CO_334:0000048 ! leaf retention
+created_by: aafolabi
+creation_date: 2015-02-26T13:17:04Z
+
+[Term]
+id: CO_334:0000252
+name: percentage leaf retention at 5 months after planting
+namespace: cassava_trait
+def: "An estimation of the percentage stem length with retained leaf measured in percentage (%) using a representative plant stand in a plot, between 5 to 6 months after planting." [CO:<new dbxref>aa]
+synonym: "LRCENT5" RELATED []
+is_a: CO_334:0000251 ! percentage leaf retention
+created_by: aafolabi
+creation_date: 2015-02-26T13:51:55Z
+
+[Term]
+id: CO_334:0000253
+name: percentage leaf retention at 6 months after planting
+namespace: cassava_trait
+def: "An estimation of the percentage stem length with retained leaf measured in percentage (%) using a representative plant stand in a plot, between 6 to 7 months after planting." [CO:aa]
+synonym: "LRCENT6" RELATED []
+is_a: CO_334:0000251 ! percentage leaf retention
+created_by: aafolabi
+creation_date: 2015-02-26T13:54:34Z
+
+[Term]
+id: CO_334:0000254
+name: percentage leaf retention at 7 months after planting
+namespace: cassava_trait
+def: "An estimation of the percentage stem length with retained leaf measured in percentage (%) using a representative plant stand in a plot, between 7 to 8 months after planting." [CO:aa]
+synonym: "LRCENT7" RELATED []
+is_a: CO_334:0000251 ! percentage leaf retention
+created_by: aafolabi
+creation_date: 2015-02-26T13:57:28Z
+
+[Term]
+id: CO_334:0000255
+name: leaf retention at harvest
+namespace: cassava_trait
+def: "An estimation of the percentage stem length with retained leaf measured in percentage (%) using a representative plant stand in a plot, at harvest." [CO:aa]
+synonym: "LRCENTH" RELATED []
+is_a: CO_334:0000251 ! percentage leaf retention
+created_by: aafolabi
+creation_date: 2015-02-26T13:58:52Z
 
 [Typedef]
 id: derives_from
